@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
             `
             taskWrapper.appendChild(itemTask)
-                
             })
         }
     }
