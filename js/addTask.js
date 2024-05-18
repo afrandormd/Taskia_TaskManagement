@@ -23,8 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const result = taskManager.saveTasks(taskData)
     
     if(result.success) {
-        // return window.location.href = '../signin.html'
-        alert('Berhasil tersimpan')
+        return window.location.href = '../tasks.html'
     } else {
         console.log('proses simpan data gagal!')
     }
